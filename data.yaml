@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', 'airplane', 'bird', 'drone']
+
+roboflow:
+  workspace: drone-a7lpy
+  project: drones-yolo11-a
+  version: 12
+  license: BY-NC-SA 4.0
+  url: https://universe.roboflow.com/drone-a7lpy/drones-yolo11-a/dataset/12
